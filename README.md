@@ -1,6 +1,6 @@
-# HI-TECH LUBRICANTS
+# DIVINE Group
 
-Welcome to the official website of **DIVINE Group**. We provide high-quality pharmacy solutions for various industries. Our products ensure smooth performance, long-lasting durability, and efficient operation of machinery.
+Welcome to the official website of **DIVINE Group**. We provide high-quality pharmacy solutions for various industries. Our products ensure best quality, long-lasting durability, and efficiency.
 
 ## Website Overview
 
@@ -31,7 +31,7 @@ The `index.html` file serves as the homepage for our website. It offers a welcom
 
 ## Contact
 
-For more information, please visit our contact page or email us at hitechlubricants538@gmail.com.
+For more information, please visit our contact page or email us at divinegroup.web@gmail.com
 
 ---
 
