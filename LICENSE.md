@@ -24,4 +24,4 @@ This website provides general information and resources related to medical and s
 
 ---
 
-For licensing inquiries or permissions, please contact [Your Contact Information].
+For licensing inquiries or permissions, please contact **DIVINE Pharma Pack**.
