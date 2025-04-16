@@ -6145,6 +6145,9 @@ fieldset:disabled .btn {
 .w-50 {
     width: 50% !important;
 }
+.w-65 {
+    width: 65% !important;
+}
 .w-75 {
     width: 75% !important;
 }
