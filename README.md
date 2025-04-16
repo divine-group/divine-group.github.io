@@ -37,7 +37,7 @@ Operating under the prestigious license of **DIVINE Pharma Pack**, we adhere to 
 
 For inquiries, collaborations, or further information, feel free to reach out:
 
-**Email**: divinepharmapack65@gmail.com | divinegroup.web@gmail.com
+**Email**: divinepharmapack65@gmail.com | divinepharmapack65@gmail.com
 **Phone**: +91-9998006653
 **Address**: DIVINE Group, Ahmedabad, Gujarat, India.
 
