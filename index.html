@@ -52,15 +52,15 @@
         </div>
         <div class="container px-0">
             <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                <a href="index.html" class="navbar-brand">
-                    <img src="img/Divine/banner-transparent.png" height="85px" />
+                <a href="index.html" class="navbar-brand ms-3">
+                    <img src="img/Divine/banner-transparent.svg" style="max-height: 70px; max-width: 100%; object-fit: contain;" />
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>
                 </button>
-                <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto">
+                <div class="collapse navbar-collapse bg-white ms-5" id="navbarCollapse">
+                    <div class="navbar-nav me-auto ms-5">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categories</a>
@@ -88,13 +88,31 @@
                             </div>
                         </div>
                     </div>
+                    <div class="ms-5">
+                        <a href="#" class="text-decoration-none" data-bs-toggle="popover"
+                           data-bs-content='ANKITA PATEL&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<b class="link-dark">+91- 99980 06653</b><br>MANSI PATEL&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<b class="link-dark">+91- 74053 86434</b><br>J. LAXMI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<b class="link-dark">+91- 93771 60744</b><hr>📧 divinepharmapack65@gmail.com'
+                           data-bs-html="true">
+                            <div class="text-center">
+                                <i class="bi bi-whatsapp fs-3" style="color: #24cc63;"></i>
+                                <p class="mb-0">Contact</p>
+                            </div>
+                        </a>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+                            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                                return new bootstrap.Popover(popoverTriggerEl);
+                            });
+                        });
+                    </script>
                 </div>
             </nav>
         </div>
     </div>
     <!-- Navbar End -->
     <!-- Photo Gallery Slider Caroussel Start -->
-    <div id="carouselExampleCaptions" class="carousel slide w-65 mx-auto" data-bs-ride="carousel"
+    <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="carousel"
         style="margin-top: 30vh">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -121,75 +139,75 @@
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/critical-care.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-critical-care.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-critical-care.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Critical Care</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/digital-medical-equipment.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-digital-medical-equipment.jpg" class="rounded mx-auto d-block"
+                <img src="img/cat-slider/slide-digital-medical-equipment.jpg" class="img-fluid rounded mx-auto d-block"
                     alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Digital Medical Equipment</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/home-and-personal-protection.html'"
                 style="cursor:pointer;">
-                <img src="img/cat-slider/slide-home-and-personal-protection.jpg" class="rounded mx-auto d-block"
+                <img src="img/cat-slider/slide-home-and-personal-protection.jpg" class="img-fluid rounded mx-auto d-block"
                     alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Home & Personal Protection</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/home-patient-care.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-home-patient-care.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-home-patient-care.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Home Patient Care</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/hospital-accessories.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-hospital-accessories.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-hospital-accessories.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Hospital Accessories</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/laboratory-products.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-laboratory-products.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-laboratory-products.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Laboratory Products</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
-                onclick="window.location.href='index.html pages/category/orthopedic-supplies.html'"
+                onclick="window.location.href='pages/category/orthopedic-supplies.html'"
                 style="cursor:pointer;">
-                <img src="img/cat-slider/slide-orthopaedic-supplies.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-orthopaedic-supplies.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Orthopedic Supplies</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/surgical-instruments.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-surgical-instruments.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-surgical-instruments.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Surgical Instruments</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/syringe-and-needles.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-syringe-needles.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-syringe-needles.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Syringe & Needles</h3>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000"
                 onclick="window.location.href='pages/category/urology-care.html'" style="cursor:pointer;">
-                <img src="img/cat-slider/slide-urology-care.jpg" class="rounded mx-auto d-block" alt="..." />
-                <div class="carousel-caption d-none d-md-block">
+                <img src="img/cat-slider/slide-urology-care.jpg" class="img-fluid rounded mx-auto d-block" alt="..." />
+                <div class="carousel-caption d-block">
                     <h3 class="text-white">Urology Care</h3>
                 </div>
             </div>
@@ -208,7 +226,7 @@
     <!-- Photo Gallery Slider End -->
     <!-- All Categories Start -->
     <div class="container-fluid fruite pt-5" id="viewAll">
-        <div class="container pt-5">
+        <div class="container pt-4">
             <div class="tab-class text-center">
                 <div class="row g-4">
                     <div class="col-lg-4 text-start mb-4">

@@ -58,15 +58,15 @@
         </div>
         <div class="container px-0">
             <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                <a href="../../index.html" class="navbar-brand">
-                    <img src="../../img/Divine/banner-transparent.png" height="85px" />
+                <a href="index.html" class="navbar-brand ms-3">
+                    <img src="../../img/Divine/banner-transparent.svg" style="max-height: 70px; max-width: 100%; object-fit: contain;" />
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>
                 </button>
-                <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto">
+                <div class="collapse navbar-collapse bg-white ms-5" id="navbarCollapse">
+                    <div class="navbar-nav me-auto ms-5">
                         <a href="../../index.html" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categories</a>
@@ -88,6 +88,24 @@
                             </div>
                         </div>
                     </div>
+                    <div class="ms-5">
+                        <a href="#" class="text-decoration-none" data-bs-toggle="popover"
+                           data-bs-content='ANKITA PATEL&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<b class="link-dark">+91- 99980 06653</b><br>MANSI PATEL&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<b class="link-dark">+91- 74053 86434</b><br>J. LAXMI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<b class="link-dark">+91- 93771 60744</b><hr>📧 divinepharmapack65@gmail.com'
+                           data-bs-html="true">
+                            <div class="text-center">
+                                <i class="bi bi-whatsapp fs-3" style="color: #24cc63;"></i>
+                                <p class="mb-0">Contact</p>
+                            </div>
+                        </a>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+                            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                                return new bootstrap.Popover(popoverTriggerEl);
+                            });
+                        });
+                    </script>
                 </div>
             </nav>
         </div>
